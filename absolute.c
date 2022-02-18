@@ -4,8 +4,8 @@
 void main()
 {
     FILE *fp;
-    int i,addr1,l,j,staddr1;
-    char line[50],addr[10],staddr[10];
+    int i,l,j,staddr1;
+    char line[50],staddr[10];
     fp=fopen("input.txt","r");
     fscanf(fp,"%s",line);
     while(!feof(fp))
